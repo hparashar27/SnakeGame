@@ -1,0 +1,122 @@
+body {
+  background: url("public/landingpage.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    cursive;
+  margin: 0;
+}
+
+#gameContainer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0 0 10px #0000004d;
+  transition: all 0.3s;
+}
+
+#gameContainer:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#gameBoard {
+  border: 3px solid black;
+  margin: 0 auto;
+  display: block;
+}
+
+#startBtn,
+#resetBtn {
+  font-size: 22px;
+  width: 100px;
+  height: 50px;
+  border: 4px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s;
+  background-color: #333;
+  color: white;
+}
+
+#startBtn:hover,
+#resetBtn:hover {
+  background-color: #555;
+  color: white;
+}
+
+#scoreText {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  color: #fff;
+  transition: all 0.3s;
+  background-color: #555;
+  border-radius: 10px;
+}
+
+#scoreText:hover {
+  color: #fff;
+  background-color: #777;
+}
+
+#gameTitle {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px;
+  color: #fff;
+  transition: all 0.3s;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+#gameTitle:hover {
+  color: #fff;
+  background-color: #555;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#leaderboard {
+  margin-right: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 36px;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#leaderboard:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#leaderboardTable th,
+#leaderboardTable td {
+  padding: 2% 40px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+
+#leaderboardTable th:hover,
+#leaderboardTable td:hover {
+  background-color: #333;
+  color: white;
+}
